@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Apresentação GTMC</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+
+		<style>
+			.title-slide {
+				text-align: center;
+				padding-left: 20px;
+				position: relative;
+			}
+			.title-slide img {
+				position: absolute;
+				bottom: 20px;
+				left: 20px;
+				width: 150px; /* Tamanho reduzido para melhor proporção */
+				background: none;
+				border: none;
+				box-shadow: none;
+				z-index: 1;
+			}
+			.title-content {
+				margin-bottom: 80px; /* Espaço para a logo não sobrepor texto */
+			}
+		</style>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section class="title-slide">
+					<img src="src/logo_ufc.png" alt="Logo UFC">
+					
+					<div class="title-content">
+						<h3 style="margin-top: 40px; margin-bottom: 30px;">Título da Apresentação</h1>
+						
+						<div style="line-height: 1.6;">
+							<p style="font-size: 30px;">Nome(s) do(s) Autor(es)</p>
+							<p style="font-size: 25px;">E-mail(s)</p>
+							<p style="font-size: 25px;">Departamento de Física</p>
+							<p style="font-size: 25px;">Universidade Federal do Ceará</p>
+							<p style="font-size: 25px; margin-top: 30px;">Data</p>
+						</div>
+					</div>
+				</section>
+
+				<section>1.Introduction to Moiré Patterns in 2D Materials</section>
+				<section>2. Motivation and Problem Statement</section>
+				<section>3. Methodology</section>
+				<section>4. Results</section>
+				<section>5. Implications</section>
+				<section>6. Future Directions</section>
+				<section>7. Conclusion</section>
+				<section>Acknowledgments</section>
+				<section>Q&A Section</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			Reveal.initialize({
+				hash: true,
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
