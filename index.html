@@ -1,76 +1,230 @@
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0,
+                 maximum-scale=1.0, user-scalable=no">
 
-		<title>Apresentação GTMC</title>
+  <title>Apresentação GTMC</title>
 
-		<link rel="stylesheet" href="dist/reset.css">
-		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+  <!-- Reset e Reveal.js -->
+  <link rel="stylesheet" href="dist/reset.css">
+  <link rel="stylesheet" href="dist/reveal.css">
+  <link rel="stylesheet" href="dist/theme/white.css">
 
-		<style>
-			.title-slide {
-				text-align: center;
-				padding-left: 20px;
-				position: relative;
-			}
-			.title-slide img {
-				position: absolute;
-				bottom: 20px;
-				left: 20px;
-				width: 150px; /* Tamanho reduzido para melhor proporção */
-				background: none;
-				border: none;
-				box-shadow: none;
-				z-index: 1;
-			}
-			.title-content {
-				margin-bottom: 80px; /* Espaço para a logo não sobrepor texto */
-			}
-		</style>
-	</head>
+  <!-- KaTeX CSS -->
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css">
+
+  <!-- KaTeX + Auto-render -->
+  <script defer
+          src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.js"></script>
+  <script defer
+          src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/contrib/auto-render.min.js"></script>
+
+  <style>
+    .title-slide {
+      text-align: center;
+      padding-left: 20px;
+      position: relative;
+    }
+    .title-slide img {
+      position: absolute;
+      bottom: 20px;
+      left: 20px;
+      width: 150px;
+      background: none;
+      border: none;
+      box-shadow: none;
+      z-index: 1;
+    }
+    .title-content {
+      margin-bottom: 80px;
+    }
+  </style>
+</head>
 	<body>
 		<div class="reveal">
 			<div class="slides">
 				<section class="title-slide">
-					<img src="src/logo_ufc.png" alt="Logo UFC">
+					<img src="src/logo_ufc_white.png" alt="Logo UFC">
 					
 					<div class="title-content">
-						<h3 style="margin-top: 40px; margin-bottom: 30px;">Título da Apresentação</h1>
+						<h3 style="margin-top: 40px; margin-bottom: 30px;">From moiré electrons and holes to moiré excitons in two-dimensional semiconductor heterobilayers</h1>
 						
 						<div style="line-height: 1.6;">
-							<p style="font-size: 30px;">Nome(s) do(s) Autor(es)</p>
-							<p style="font-size: 25px;">E-mail(s)</p>
-							<p style="font-size: 25px;">Departamento de Física</p>
-							<p style="font-size: 25px;">Universidade Federal do Ceará</p>
-							<p style="font-size: 25px; margin-top: 30px;">Data</p>
+							<p style="font-size: 30px;">Nomes dos autores</p>
+							<!-- <p style="font-size: 30px;">Célio Bezerra</p> -->
+							<!-- <p style="font-size: 25px;">E-mail(s)</p> -->
+							<!-- <p style="font-size: 25px;">Departamento de Física - Universidade Federal do Ceará</p> -->
+							<!-- <p style="font-size: 25px;">Universidade Federal do Ceará</p> -->
+							<p style="font-size: 25px; margin-top: 30px;">29/05/2025</p>
 						</div>
 					</div>
 				</section>
 
-				<section>1.Introduction to Moiré Patterns in 2D Materials</section>
-				<section>2. Motivation and Problem Statement</section>
-				<section>3. Methodology</section>
-				<section>4. Results</section>
-				<section>5. Implications</section>
-				<section>6. Future Directions</section>
-				<section>7. Conclusion</section>
-				<section>Acknowledgments</section>
+				<section>
+				<h4>1. Introduction to Moiré Patterns in 2D Materials</h4>
+
+					<section>
+					<div style="display: flex; align-items: center; gap: 60px;">
+
+						<ul style="font-size: 22px; margin: 0;">
+							<li class="fragment fade-in" data-fragment-index="1">van der Waals bilayers</li>
+						</ul>
+
+						<img src="src/bilayer2_.png" alt="" style="width: 500px;" class="fragment fade-in" data-fragment-index="2">
+					
+					</div>
+					</section>
+
+					<section>
+					<div style="display: flex; align-items: center; gap: 60px;">
+
+						<ul style="font-size: 22px; margin: 0;">
+						<li class="fragment fade-in" data-fragment-index="1">moiré pattern</li>
+						</ul>
+
+						<video class="fragment fade-in" data-fragment-index="2" width="400" autoplay muted loop playsinline>
+						<source src="src/HexagonalLattice.mp4" type="video/mp4">
+						</video>
+					
+					</div>
+					</section>
+
+				<!-- Subslide 4: segundo bullet + vídeo no lugar da imagem -->
+				<section>
+					<div style="display: flex; align-items: center; gap: 60px;">
+						
+					</div>
+				</section>
+
+				<!-- Subslide 5: terceiro bullet -->
+				<section>
+					<div style="display: flex; align-items: center; gap: 60px;">
+						<ul style="font-size: 22px;">
+							<li>moiré superlattice</li>
+						</ul>
+					</div>
+				</section>
+			</section>
+				<section>
+					<h4>2. Motivation and Problem Statement</h4>
+					<section>
+					<div style="display: flex; align-items: center; gap: 60px;">
+						<ul style="font-size: 22px; margin: 0;">
+							<li class="fragment fade-in" data-fragment-index="1">Recent experiments on $WSe_2/WS_2$ heterostructures provide strong evidence of the existence of electron-hole pairs that are in-plane polarized by the moiré pattern.</li>
+						</ul>
+					</div>
+					</section>
+					<section>
+					<div style="display: flex; align-items: center; gap: 60px;">
+						<ul style="font-size: 22px; margin: 0;">
+							<li class="fragment fade-in" data-fragment-index="1">Recent experiments on $WSe_2/WS_2$ heterostructures provide strong evidence of the existence of electron-hole pairs that are in-plane polarized by the moiré pattern.</li>
+						</ul>
+					</div>
+					</section>
+					<section>
+					<div style="display: flex; align-items: center; gap: 60px;">
+						<ul style="font-size: 22px; margin: 0;">
+							<li class="fragment fade-in" data-fragment-index="1">Recent experiments on $WSe_2/WS_2$ heterostructures provide strong evidence of the existence of electron-hole pairs that are in-plane polarized by the moiré pattern.</li>
+						</ul>
+					</div>
+					</section>
+				</section>
+				<section>
+					<h4>3. Theoretical Models</h4>
+
+					<section>
+					<div style="display: flex; align-items: center; gap: 60px;">
+
+						<ul style="font-size: 22px; margin: 0;">
+							<li class="fragment fade-in" data-fragment-index="1">Exciton Moiré (mX)</li>
+						</ul>
+					</div>
+					</section>
+
+					<section>
+					<div style="display: flex; align-items: center; gap: 60px;">
+
+						<ul style="font-size: 22px; margin: 0;">
+							<li class="fragment fade-in" data-fragment-index="1">Electron and Hole Moiré (mEH)</li>
+						</ul>
+					</div>
+					</section>
+
+					<section>
+					<div style="display: flex; align-items: center; gap: 60px;">
+
+						<ul style="font-size: 22px; margin: 0;">
+							<li class="fragment fade-in" data-fragment-index="1">Our model (hartree)</li>
+						</ul>
+					</div>
+					</section>
+
+				</section>
+				<section>
+					<h4>4. Methodology</h4>
+
+					<section>
+					<div style="display: flex; align-items: center; gap: 60px;">
+
+						<ul style="font-size: 22px; margin: 0;">
+							<li class="fragment fade-in" data-fragment-index="1">Modeling the moiré potential</li>
+						</ul>
+
+						<video class="fragment fade-in" data-fragment-index="2" width="400" autoplay muted loop playsinline>
+						<source src="src/AnimatedMoirePotential.mp4" type="video/mp4">
+						</video>
+					</div>
+					</section>
+				</section>
+				<section>
+					<h4>5. Results</h4>
+				</section>
+				<section>
+					<h4>6. Conclusion</h4>
+				</section>
 				<section>Q&A Section</section>
 			</div>
 		</div>
 
 		<script src="dist/reveal.js"></script>
-		<script src="plugin/notes/notes.js"></script>
-		<script src="plugin/markdown/markdown.js"></script>
-		<script src="plugin/highlight/highlight.js"></script>
-		<script>
-			Reveal.initialize({
-				hash: true,
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-			});
-		</script>
+  <script src="plugin/notes/notes.js"></script>
+  <script src="plugin/markdown/markdown.js"></script>
+  <script src="plugin/highlight/highlight.js"></script>
+  <script>
+    // 1) Inicia o Reveal
+    Reveal.initialize({
+      hash: true,
+      plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+    });
+
+    // 2) Configura delimitadores para o KaTeX
+    const mathDelims = {
+      delimiters: [
+        { left: "$$", right: "$$", display: true  },
+        { left: "\\[", right: "\\]", display: true  },
+        { left: "$",  right: "$",  display: false },
+        { left: "\\(", right: "\\)", display: false }
+      ]
+    };
+
+    // 3) Renderiza todas as fórmulas ao carregar o DOM
+    document.addEventListener("DOMContentLoaded", () => {
+      renderMathInElement(document.body, mathDelims);
+    });
+
+    // 4) Re-renderiza ao mudar de slide
+    Reveal.on("slidechanged", ({ currentSlide }) => {
+      renderMathInElement(currentSlide, mathDelims);
+    });
+
+    // 5) Re-renderiza ao mostrar um fragment
+    Reveal.on("fragmentshown", ({ fragment }) => {
+      renderMathInElement(fragment, mathDelims);
+    });
+  </script>
 	</body>
 </html>
